@@ -31,17 +31,36 @@
 
   <body>
     <!-- BANNER SECTION -->
-     <section class="grid grid-cols-2 container border border-red-500 mx-auto">
+     <section class="grid grid-cols-1 md:grid-cols-2 container mx-auto">
       <div class="banner-left space-y-[30px]">
         <h2 class="text-[80px]">It's good <br> tea time at The <br>Tea House</h2>
         <p class="text-[#777]">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Nam, deleniti?</p>
         <button class="py-3 px-4 rounded-md text-white font-semibold font-semibold bg-linear-to-r from-[#ff8938] to-[#ff0000]">Explore More <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span> </button>
       </div>
       
-      <div class="banner-right">
+      <div class="banner-right not-[]:flex justify-end items-end relative">
         <img src="./images/banner.png" alt="">
+
+        <!-- RATING DIV -->
+         <div class="bg-white rounded-xl flex justify-center items-center gap-2 w-[250px] absolute bottom-[15px] left-[200px] py-[25px] px-[15px]">
+          <img src="./images/rating.png" alt="">
+          <div>
+            <h2 class="font-bold text-2xl">5.00</h2>
+            <p >Trust Rating</p>
+          </div>
+         </div>
       </div>
      </section>
+     
+     <!-- FEATURED SECTION -->
+      <section>
+        <div>
+          <h2>Our Featured Products</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          
+        </div>
+      </section>
+
 
   </body>
 </html>
