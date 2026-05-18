@@ -1,0 +1,5 @@
+todays topic
+- Create a featured section with tailwind css 
+- create grid layout 
+
+this is day 57 of learning web development. based on this information write a linkedin post
